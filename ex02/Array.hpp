@@ -3,15 +3,17 @@
 /*                                                        :::      ::::::::   */
 /*   Array.hpp                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mcutura <mcutura@student.42berlin.de>      +#+  +:+       +#+        */
+/*   By: mcutura <mcutura@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/05 23:36:36 by mcutura           #+#    #+#             */
-/*   Updated: 2023/10/06 00:17:55 by mcutura          ###   ########.fr       */
+/*   Updated: 2024/05/10 17:37:48 by mcutura          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <iostream>
-#include <stdexcept>
+#ifndef ARRAY_HPP
+# define ARRAY_HPP
+
+# include <stdexcept>
 
 template <typename T>
 class Array
@@ -33,4 +35,6 @@ class Array
 		T				*arr;
 };
 
-#include "Array.tpp"
+# include "Array.tpp"
+
+#endif // ARRAY_HPP

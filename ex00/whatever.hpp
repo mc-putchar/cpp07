@@ -3,15 +3,15 @@
 /*                                                        :::      ::::::::   */
 /*   whatever.hpp                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mcutura <mcutura@student.42berlin.de>      +#+  +:+       +#+        */
+/*   By: mcutura <mcutura@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/05 22:51:46 by mcutura           #+#    #+#             */
-/*   Updated: 2023/10/05 23:02:49 by mcutura          ###   ########.fr       */
+/*   Updated: 2024/05/10 17:24:33 by mcutura          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#pragma once
-#include <iostream>
+#ifndef WHATEVER_HPP
+# define WHATEVER_HPP
 
 template <typename T>
 void	swap(T &a, T &b)
@@ -38,3 +38,5 @@ T	max(T a, T b)
 		return a;
 	return b;
 }
+
+#endif // WHATEVER_HPP
